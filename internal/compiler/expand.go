@@ -5,10 +5,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/source"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/astutils"
+	"github.com/istforks/sqlc/internal/config"
+	"github.com/istforks/sqlc/internal/source"
+	"github.com/istforks/sqlc/internal/sql/ast"
+	"github.com/istforks/sqlc/internal/sql/astutils"
 )
 
 func (c *Compiler) expand(qc *QueryCatalog, raw *ast.RawStmt) ([]source.Edit, error) {

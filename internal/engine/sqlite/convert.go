@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/antlr4-go/antlr/v4"
-	"github.com/sqlc-dev/sqlc/internal/debug"
-	"github.com/sqlc-dev/sqlc/internal/engine/sqlite/parser"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
+	"github.com/istforks/sqlc/internal/debug"
+	"github.com/istforks/sqlc/internal/engine/sqlite/parser"
+	"github.com/istforks/sqlc/internal/sql/ast"
 )
 
 type cc struct {

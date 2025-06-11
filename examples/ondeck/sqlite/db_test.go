@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sqlc-dev/sqlc/internal/sqltest"
+	"github.com/istforks/sqlc/internal/sqltest"
 
 	"github.com/google/go-cmp/cmp"
 )

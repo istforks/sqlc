@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/sqltest/local"
+	"github.com/istforks/sqlc/internal/config"
+	"github.com/istforks/sqlc/internal/sqltest/local"
 )
 
 func TestValidSchema(t *testing.T) {

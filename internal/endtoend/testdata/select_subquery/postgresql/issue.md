@@ -1,1 +1,1 @@
-https://github.com/sqlc-dev/sqlc/pull/2639
+https://github.com/istforks/sqlc/pull/2639
